@@ -23,7 +23,7 @@
         <h2>Code readability</h2>
         <p>For code readability you can indicate place where particular container is closed. You can do it like that:</p>
 
-        <pre>
+        <pre class="no-padding">
         <code>&lt;div class='element'&gt;
   ...
 &lt;/div&gt;
@@ -61,9 +61,9 @@
 
         <pre>
           <ul>
-            <li>Sprites generator: https://draeton.github.io/stitches/</li>
-            <li>Set of predefined icons: http://weloveiconfonts.com/</li>
-            <li>Create your own icon fonts: https://icomoon.io/</li>
+            <li><a href="https://draeton.github.io/stitches/">Sprites generator</a></li>
+            <li><a href="http://weloveiconfonts.com/">Set of predefined icons</a></li>
+            <li><a href="https://icomoon.io/">Create your own icon fonts</a></li>
           </ul>
         </pre>
 
@@ -74,11 +74,8 @@
         <h2>Aspects of DOM</h2>
         <p>Use ui- or js- prefixes to decouple function aspects of DOM elements from CSS one.</p>
 
-        <pre>
-        <code>
-          &lt;a class='btn js-popup'&gt;Click me!&lt;/a&gt;
-
-        </code>
+        <pre class="no-padding">
+        <code>&lt;a class='btn js-popup'&gt;Click me!&lt;/a&gt;</code>
         </pre>
 
         <p>Developers will be grateful - he can use it to handle this element in javascript and conversly you can style it using .btn class without breaking popup functionality.</p>
@@ -89,7 +86,9 @@
         <p>Keep the lowest specificity where possible - thanks to that your code will be flexible and easy to maintain.</p>
 
         <pre>
-          https://css-tricks.com/strategies-keeping-css-specificity-low/
+          <ul>
+            <li><a href="https://css-tricks.com/strategies-keeping-css-specificity-low/">Specificity strategy</a></li>
+          </ul>
         </pre>
       </article>
 
@@ -112,12 +111,14 @@
         <h2>Structure</h2>
         <p>If it possible split your css (less/sass) into separate files, we're recommending following structure:</p>
         <pre>
-          |- fonts
-          |- variables
-          |- mixins
-          |- media queries
-          |- layout
-          |- content
+          <ul>
+            <li>|- fonts
+            <li>|- variables
+            <li>|- mixins
+            <li>|- media queries</li>
+            <li>|- layout</li>
+            <li>|- content</li>
+          </ul>
         </pre>
       </article>
 
@@ -125,42 +126,45 @@
         <h2>Best methodologies</h2>
         <p>It’s a good practice to follow best methodologies during creating your css, our recommendations are:</p>
         <pre>
-          • BEM naming convention
-          • Atomic CSS
+          <ul>
+            <li>
+              <a href="https://en.bem.info/method/definitions/">BEM naming convention</a>
+            </li>
+            <li>
+              <a href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic CSS</a>
+            </li>
+          </ul>
         </pre>
 
         <p>We used BEM principles to create a set of front-end development techniques and tools, that allow us to build websites quickly and maintain them over a long time.</p>
-
-        <p>Must read:</p>
-        http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
-        https://en.bem.info/method/definitions/
-
-        <p>Atomic design is methodology for creating design systems.</p>
-        http://bradfrost.com/blog/post/atomic-web-design/
-        http://www.smashingmagazine.com/2013/10/21/challenging-css-best-practices-atomic-approach/
       </article>
+
 
       <article>
         <h2>Check before you start</h2>
         <p>Checklist before:</p>
         <pre>
-          • make sure that you have all essential assets: comps, fonts and so on
-          • check if the design is prepared on grid
-          • ask your PM about device/browser requirements make sure that the design corresponds with it
-          • verify the design in terms of extreme cases for text, wrapping, elements shifting on other devices
+          <ul>
+            <li>make sure that you have all essential assets: comps, fonts and so on</li>
+            <li>check if the design is prepared on grid</li>
+            <li>ask your PM about device/browser requirements make sure that the design corresponds with it</li>
+            <li>verify the design in terms of extreme cases for text, wrapping, elements shifting on other devices</li>
+          </ul>
         </pre>
       </article>
 
       <article>
         <h2>Check after you finish</h2>
         <p>Checklist after:</p>
-        <pre>
-          • check if you added the favicon, the devil is in the detail
-          • turn off csses and see how you html is formated; if you did it properly you could easly use your page
-          • make sure that you put media queries in separate file
-          • remove all debug sections (alerts, logs), not everyone want to see your ‘dupa’
-          • care about validation, it’s hard to maintain it nowadays but try you are professional
-          • optimise images, doing it (with grunt, gulp or external apps) you can improve your site performance
+        <pre class="flex-size">
+          <ul>
+            <li>check if you added the favicon, the devil is in the detail</li>
+            <li>turn off csses and see how you html is formated; if you did it properly you could easly use your page</li>
+            <li>make sure that you put media queries in separate file</li>
+            <li>remove all debug sections (alerts, logs), not everyone want to see your ‘dupa’</li>
+            <li>care about validation, it’s hard to maintain it nowadays but try you are professional</li>
+            <li>optimise images, doing it (with grunt, gulp or external apps) you can improve your site performance</li>
+          </ul>
         </pre>
       </article>
 
@@ -168,10 +172,12 @@
         <h2>Styleguides to follow:</h2>
         <p>Styleguides:</p>
         <pre>
-          • Mailchimp http://ux.mailchimp.com/patterns
-          • Github http://primercss.io/
-          • Airbnb https://github.com/airbnb/javascript
-          • Bbc http://www.bbc.co.uk/guidelines/futuremedia/technical/css.shtml
+          <ul>
+            <li><a href="http://ux.mailchimp.com/patterns">Mailchimp</a></li>
+            <li><a href="http://primercss.io/">Github</a></li>
+            <li><a href="https://github.com/airbnb/javascript">Airbnb</a></li>
+            <li><a href="http://www.bbc.co.uk/guidelines/futuremedia/technical/css.shtml">Bbc</a></li>
+          </ul>
         </pre>
       </article>
 
@@ -179,17 +185,20 @@
         <h2>Links:</h2>
         <p>Worth to know, follow good practices:</p>
         <pre>
-          • https://css-tricks.com/efficiently-rendering-css/
-          • https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS
-          • http://www.smashingmagazine.com/2012/04/20/decoupling-html-from-css/
-          • http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides
+          <ul>
+            <li><a href="https://css-tricks.com/efficiently-rendering-css/">https://css-tricks.com/efficiently-rendering-css/</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS">https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Writing_efficient_CSS</a></li>
+            <li><a href="http://www.smashingmagazine.com/2012/04/20/decoupling-html-from-css/">http://www.smashingmagazine.com/2012/04/20/decoupling-html-from-css/</a></li>
+            <li><a href="http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides">http://www.smashingmagazine.com/2008/05/02/improving-code-readability-with-css-styleguides</a></li>
+          </ul>
         </pre>
       </article>
 
-      <article>
-        <img src="logo.svg" alt="Infusion Development" style="width: 100px; height: 100px" />
-        Created by Cracow IDs
-        infusion.com
+      <article class="dark text-center">
+        <img src="logo.svg" alt="Infusion Development" style="width: 100px; height: 100px" class="block" />
+        <p>Created by Cracow IDs</p>
+
+        <p><a href="http://infusion.com">infusion.com</a></p>
       </article>
     </section>
 
