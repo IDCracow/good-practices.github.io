@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'quadonmedium';
-  src: url('/fonts/rene_bieder_-_quadon_medium.eot');
-  src: url('/fonts/rene_bieder_-_quadon_medium.eot?#iefix') format('embedded-opentype'), url('/fonts/rene_bieder_-_quadon_medium.woff2') format('woff2'), url('/fonts/rene_bieder_-_quadon_medium.woff') format('woff'), url('/fonts/rene_bieder_-_quadon_medium.ttf') format('truetype'), url('/fonts/rene_bieder_-_quadon_medium.svg#quadonmedium') format('svg');
+  src: url('fonts/rene_bieder_-_quadon_medium.eot');
+  src: url('fonts/rene_bieder_-_quadon_medium.eot?#iefix') format('embedded-opentype'), url('fonts/rene_bieder_-_quadon_medium.woff2') format('woff2'), url('fonts/rene_bieder_-_quadon_medium.woff') format('woff'), url('fonts/rene_bieder_-_quadon_medium.ttf') format('truetype'), url('fonts/rene_bieder_-_quadon_medium.svg#quadonmedium') format('svg');
   font-weight: normal;
   font-style: normal; }
 
