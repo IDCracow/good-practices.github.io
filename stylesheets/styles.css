@@ -14,7 +14,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
   background: #159d50;
@@ -43,7 +43,7 @@ header {
   width: 405px; }
   header h1 {
     font-size: 100px;
-    font-family: 'quadonmedium', "Helvetica Neue", Lato, Helvetica, Arial, sans-serif;
+    font-family: 'quadonmedium', Lato, Helvetica, Arial, sans-serif;
     font-weight: normal;
     margin: 0.8em 0 0 0; }
   header h2 {
@@ -84,7 +84,7 @@ p {
 pre {
   height: 190px;
   white-space: normal;
-  font-family: "Helvetica Neue", Lato, Helvetica, Arial, sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 10px 0; }
